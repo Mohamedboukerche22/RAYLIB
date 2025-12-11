@@ -5,7 +5,7 @@ using namespace std;
 
 /*
 ** Authour : Mohamed boukerche 
-** Date : 11 December 23:55
+** Date : 11 December 
 ** Code : Moha's type game using raylib c++
 */
 
@@ -32,9 +32,12 @@ enum class GameScreen {
 };
 
 
+int screenHeight = GetScreenHeight();
+int screenwidth = GetScreenWidth();
+
 class RayTypeGame {
 public:
-    RayTypeGame(int width, int height, const string& title)
+    RayTypeGame(int width, int height, const string& title):
          screenWidth(width), screenHeight(height), currentScreen(GameScreen::MENU) 
     {
         SetConfigFlags(FLAG_WINDOW_RESIZABLE | FLAG_VSYNC_HINT);
