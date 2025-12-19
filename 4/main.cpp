@@ -63,7 +63,7 @@ private:
     int screenWidth;
     int screenHeight;
     GameScreen currentScreen;
-     // make chat-gpt genrate 150 quotes 
+     //  150 quotes 
      // damn that's huge i'll make it in json file or txt           (next time lol)
     const vector<string> quotes = {
     "Believe in progress, even when the steps feel really small.",
