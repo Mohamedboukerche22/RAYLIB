@@ -6,7 +6,7 @@
 ** github.com/mohamedboukerche22
 ** 21:00 14/01/2026
 ** 3d player movement example in raylib using c++17
-** to comile use :
+** to compile it use :
 ** g++ main.cpp -o game -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 ** run : ./game
 ** make sure you have raylib installed
